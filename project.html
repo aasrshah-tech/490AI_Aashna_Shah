@@ -20,7 +20,6 @@
       --text-muted: #6b7280;
       --border: #e5e7eb;
       --radius-lg: 18px;
-      --radius-md: 12px;
       --shadow-soft: 0 10px 30px rgba(15, 23, 42, 0.08);
     }
 
@@ -57,10 +56,6 @@
       font-size: 0.9rem;
       color: var(--text-muted);
       margin-bottom: 16px;
-    }
-
-    .back-link span {
-      font-size: 1.1rem;
     }
 
     header h1 {
@@ -105,7 +100,6 @@
       font-size: 1.1rem;
       font-weight: 600;
       margin-bottom: 16px;
-      margin-top: 4px;
     }
 
     .materials-grid {
@@ -116,7 +110,6 @@
 
     .material-card {
       padding: 24px 22px 22px;
-      text-align: left;
     }
 
     .material-icon {
@@ -148,18 +141,13 @@
       border-radius: 999px;
       background: var(--primary);
       color: white;
-      text-decoration: none;
       font-size: 0.93rem;
       font-weight: 500;
-      border: 1px solid transparent;
-      transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
       box-shadow: 0 8px 18px rgba(37, 99, 235, 0.2);
     }
 
     .primary-link:hover {
       background: #1e40af;
-      transform: translateY(-1px);
-      box-shadow: 0 10px 24px rgba(37, 99, 235, 0.26);
     }
 
     footer {
@@ -174,10 +162,8 @@
 <body>
   <div class="page">
 
-    <!-- BACK TO HOME -->
-    <a class="back-link" href="index.html">
-      <span>←</span> Back to Home
-    </a>
+    <!-- BACK LINK -->
+    <a class="back-link" href="index.html">← Back to Home</a>
 
     <header>
       <h1>AI Class Project</h1>
@@ -189,15 +175,15 @@
       <h2>Project Overview</h2>
 
       <p>
-        This project analyzes the U.S. investment banking industry from 2008 to 2025 to understand how artificial intelligence is reshaping a mature, highly consolidated sector. Drawing on industry fee data, labor statistics, and firm disclosures, it examines how AI adoption is transforming deal execution, workforce structure, and competitive dynamics in investment banking.
+        This project analyzes the U.S. investment banking industry from 2008 to 2025 to examine how artificial intelligence is reshaping a mature, highly consolidated sector.
       </p>
 
       <p>
-        Using economic datasets from sources such as BLS, BEA, FRED, and Dealogic, the project evaluates industry cyclicality, market concentration, and productivity trends, highlighting why large bulge-bracket banks are uniquely positioned to benefit from AI-driven efficiencies.
+        Using datasets from BLS, BEA, FRED, and Dealogic, the analysis explores fee concentration, productivity trends, and why large bulge-bracket banks are uniquely positioned to benefit from AI-driven efficiencies.
       </p>
 
       <p>
-        The analysis further explores AI’s impact on entry-level roles, skill requirements, and career pathways, showing how automation reallocates labor toward higher-value advisory and judgment-based functions rather than eliminating human expertise altogether. Overall, the project demonstrates how AI reinforces scale advantages, raises barriers to entry, and reshapes the future workforce.
+        The project also evaluates AI’s impact on entry-level roles and skill requirements, showing how automation reallocates labor toward higher-value advisory functions rather than eliminating human expertise.
       </p>
     </section>
 
@@ -212,10 +198,14 @@
           <div class="material-icon">📊</div>
           <h3 class="material-title">Presentation Slides</h3>
           <p class="material-desc">
-            A concise, visual summary of the U.S. investment banking industry analysis, highlighting market structure, fee concentration, AI-driven workflow changes, and key economic insights from 2008–2025.
+            Visual summary of U.S. investment banking trends, AI adoption, and economic implications from 2008–2025.
           </p>
-          <a class="primary-link" href="slides.pdf" target="_blank" rel="noopener">
-            View Presentation
+          <a
+            class="primary-link"
+            href="Aashna%20Shah_AI%20in%20IB.pdf"
+            download
+          >
+            Download Presentation
           </a>
         </article>
 
@@ -224,10 +214,14 @@
           <div class="material-icon">📝</div>
           <h3 class="material-title">Project Report</h3>
           <p class="material-desc">
-            A high-level written analysis of industry structure, market concentration, and AI-driven changes in U.S. investment banking.
+            Written analysis of industry structure, market concentration, and AI-driven changes in U.S. investment banking.
           </p>
-          <a class="primary-link" href="project.pdf" target="_blank" rel="noopener">
-            View Report
+          <a
+            class="primary-link"
+            href="project.pdf"
+            download
+          >
+            Download Report
           </a>
         </article>
 
